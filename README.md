@@ -11,7 +11,7 @@ $ git clone https://github.com/dariog98/andes-airlines-bsale-api.git
 Dirigirse al directorio del proyecto
 
 ```bash
-cd andes-airlines-bsale-api
+$ cd andes-airlines-bsale-api
 ```
 
 Crear un archivo `.env` en el directorio base con las siguientes variables:
@@ -53,5 +53,11 @@ De manera que, se busca forzosamente hallar un asiento libre que disponga de un 
 Para este ejercicio `asientos vecinos` es todo asiento a la izquierda, derecha, encima y debajo de un asiento que este directamente al lado de otro, de forma que los asientos en una misma fila, pero en columnas muy separadas, no serán tomadas en consideración como vecinos. 
 
 ![image01](docs/image01.png)
+![image02](docs/image02.png)
 
-![image01](docs/image02.png)  
+![image03](docs/image03.png)
+![image04](docs/image04.png)
+
+#### Resultados
+
+![image04](docs/image05.png)
