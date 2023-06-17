@@ -3,6 +3,7 @@
 ## Como ejecutar la API de manera local
 
 Clonar el proyecto
+
 ```bash
 $ git clone https://github.com/dariog98/andes-airlines-bsale-api.git
 ```
@@ -14,16 +15,23 @@ cd andes-airlines-bsale-api
 ```
 
 Crear un archivo `.env` en el directorio base con las siguientes variables:
+
 `PORT = portnumber`
+
 `DB_HOST = hostname`
+
 `DB_USER = username`
+
 `DB_PASS = password`
+
 `DB_NAME = dbname`
 
 Ejecutar los siguientes comandos:
+
 ```bash
 $ npm install
 ```
+
 ```bash
 $ npm start
 ```
