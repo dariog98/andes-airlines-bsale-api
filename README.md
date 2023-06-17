@@ -16,15 +16,13 @@ $ cd andes-airlines-bsale-api
 
 Crear un archivo `.env` en el directorio base con las siguientes variables:
 
-`PORT = portnumber`
-
 `DB_HOST = hostname`
 
 `DB_USER = username`
 
 `DB_PASS = password`
 
-`DB_NAME = dbname`
+`DB_NAME = database`
 
 Ejecutar los siguientes comandos:
 
