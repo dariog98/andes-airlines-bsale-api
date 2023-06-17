@@ -59,3 +59,4 @@ Para este ejercicio `asientos vecinos` es todo asiento a la izquierda, derecha, 
 #### Resultados
 
 ![image04](docs/image05.png)
+Imagen obtenida de una app de prueba que visualiza los asientos asignados en el avión
