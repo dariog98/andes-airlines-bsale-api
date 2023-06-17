@@ -27,8 +27,12 @@ const getAirplane = async (request, response) => {
             })
         }
     } catch (error) {
-        //httpError(response, error)
         console.log(error)
+        response.status(400)
+        response.send({
+            code: '400',
+            error: 'could not connect to db'
+        })
     }
 }
 
