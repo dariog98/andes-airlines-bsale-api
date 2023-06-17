@@ -3,22 +3,30 @@
 ## Como ejecutar la API de manera local
 
 Clonar el proyecto
-``$ git clone https://github.com/dariog98/andes-airlines-bsale-api.git``
+```bash
+$ git clone https://github.com/dariog98/andes-airlines-bsale-api.git
+```
 
 Dirigirse al directorio del proyecto
 
-``$ cd andes-airlines-bsale-api``
+```bash
+cd andes-airlines-bsale-api
+```
 
-Crear un archivo ``.env`` en el directorio base con las siguientes variables:
-``PORT = portnumber``
-``DB_HOST = hostname``
-``DB_USER = username``
-``DB_PASS = password``
-``DB_NAME = dbname``
+Crear un archivo `.env` en el directorio base con las siguientes variables:
+`PORT = portnumber`
+`DB_HOST = hostname`
+`DB_USER = username`
+`DB_PASS = password`
+`DB_NAME = dbname`
 
 Ejecutar los siguientes comandos:
-``$ npm install``
-``$ npm start``
+```bash
+$ npm install
+```
+```bash
+$ npm start
+```
 
 ## Solución
 
@@ -34,7 +42,7 @@ Para facilitar esto a cada vecino que se le encuentra a un asiento se le asigna 
 De manera que, se busca forzosamente hallar un asiento libre que disponga de un vecino libre de peso dos para posicionar al menor al lado de algún acompañante adulto.
 
 #### Asientos Vecinos
-Para este ejercicio 'asientos vecinos' es todo asiento a la izquierda, derecha, encima y debajo de un asiento que este directamente al lado de otro, de forma que los asientos en una misma fila, pero en columnas muy separadas, no serán tomadas en consideración como vecinos. 
+Para este ejercicio `asientos vecinos` es todo asiento a la izquierda, derecha, encima y debajo de un asiento que este directamente al lado de otro, de forma que los asientos en una misma fila, pero en columnas muy separadas, no serán tomadas en consideración como vecinos. 
 
 ![image01](docs/image01.png)
 
